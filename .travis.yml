@@ -1,9 +1,9 @@
 language: php
 php:
- - '7.0'
+  - '7.0'
 sudo: required
 services:
- - mysql
+  - mysql
  only:
- - master
- - dev
+  - master
+  - dev
