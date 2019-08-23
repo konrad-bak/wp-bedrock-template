@@ -1,9 +1,0 @@
-language: php
-php:
- - '7.0'
-sudo: required
-services:
- - mysql
- only:
- - master
- - dev
