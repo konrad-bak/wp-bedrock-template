@@ -8,6 +8,10 @@ php:
 services:
   - mysql
 
+only:
+  - master
+  - dev
+
 script:
   # Run your tests here.
   - echo 'Tested'
